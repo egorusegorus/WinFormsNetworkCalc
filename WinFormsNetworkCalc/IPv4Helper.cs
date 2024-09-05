@@ -17,7 +17,7 @@ namespace WinFormsNetworkCalc
         static public bool CheckDezOctet(string strDezOctet)
         {
             if (!strDezOctet.Contains("."))
-                return false;
+                return false;  
             string[] strParts = strDezOctet.Split(new string[] { "." },
             StringSplitOptions.RemoveEmptyEntries);
             if (strParts.Length != 4)
